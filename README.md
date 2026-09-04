@@ -26,7 +26,14 @@ AegisBrush 的价值在于**分层防护 + 溯源取证**：
 - **元数据可能被处理工具剥除**：很多图片编辑器 / 平台在重新保存时会丢弃 EXIF、XMP、PNG 文本块。
 - **真正对「改图」鲁棒的是内容指纹比对（`match`）**：`dhash`/`phash` 对颜色滤镜、缩放、轻微编辑有效；「裁剪换景别 + 贴图加字」这类改构图操作则由 `feature` 模式（ORB + RANSAC 局部特征匹配）覆盖，输出几何内点、内点率、匹配区域覆盖率与内点颜色一致率作为取证证据，并能区分「同线稿模板但不同上色」的图（不计盗用）。
 
-## 安装
+## 下载安装包（Windows，推荐）
+
+无需预装 Python，直接下载双击安装即可：
+
+- **下载安装包**：[AegisBrush-Setup-1.0.0.exe](https://github.com/zhy201810576/AegisBrush/releases/download/v1.0.0/AegisBrush-Setup-1.0.0.exe)（54.72 MB）
+- 或前往 [Releases 页面](https://github.com/zhy201810576/AegisBrush/releases) 查看全部版本
+
+## 安装（从源码）
 
 ```bash
 pip install -e .
