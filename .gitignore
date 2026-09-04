@@ -1,0 +1,65 @@
+# ===== Python 字节码与缓存 =====
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+.eggs/
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# ===== 虚拟环境 =====
+.venv/
+venv/
+ENV/
+env/
+
+# ===== 构建与分发产物（PyInstaller） =====
+build/
+dist/
+develop-eggs/
+downloads/
+parts/
+sdist/
+var/
+wheels/
+*.manifest
+
+# ===== IDE =====
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# ===== 测试与覆盖率 =====
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+nosetests.xml
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== DSH 会话资产 =====
+.dsh-assets/
+
+# ===== 测试样例图片与 demo 产物 =====
+_suite_demo/
+_texture_demo/
+格雷福斯*.png
+格雷福斯*.json
+已防护*.png
+已防护*.jpg
+水印参考*
+兽设模板*
+高亮_*.png
+举证图_*.png
+
+# ===== 临时脚本 =====
+_tmp_*.py

@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "aegisbrush"
+version = "1.0.0"
+description = "OC 作品防盗用 + 反 AI 训练水印工具"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "zhy201810576" }]
+dependencies = [
+    "Pillow>=10.0",
+    "numpy>=1.24",
+    "piexif>=1.1.3",
+    "opencv-python>=4.8",
+    "blind-watermark>=0.4.4",
+    "customtkinter>=5.2",
+]
+
+[project.urls]
+Homepage = "https://github.com/zhy201810576/AegisBrush"
+Repository = "https://github.com/zhy201810576/AegisBrush"
+Issues = "https://github.com/zhy201810576/AegisBrush/issues"
+
+[project.scripts]
+aegisbrush = "aegisbrush.cli:main"
+aegisbrush-gui = "aegisbrush.gui:main"
+
+[tool.setuptools.packages.find]
+include = ["aegisbrush*"]
+
+[tool.setuptools.package-data]
+aegisbrush = ["assets/*.ico", "assets/*.png"]
