@@ -1,10 +1,10 @@
-# AegisBrush 🛡️
+# <img src="./aegisbrush/assets/icon_256.png" alt="AegisBrush 图标" width="40" height="40"> AegisBrush
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-blue.svg)](https://www.python.org/)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/zhy201810576/AegisBrush)
 
-给 OC（原创角色 / 原创作品）图片打上**防盗用 + 反 AI 训练**水印的 Python 工具。
+为 OC（原创角色 / 原创作品）图片提供**防盗用 + 反 AI 训练**分层水印与盗图溯源的桌面工具，图形界面一键完成防护与取证。
 
 ## 功能预览
 
